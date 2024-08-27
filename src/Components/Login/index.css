@@ -1,0 +1,43 @@
+.login-form {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form {
+  height: 300px;
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgb(111, 103, 103);
+}
+.uname {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-top: 10px;
+}
+input {
+  height: 40px;
+  width: 310px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.logo {
+  width: 200px;
+  align-self: center;
+}
+.login-btn {
+  margin-top: 15px;
+  height: 40px;
+  background-color: blue;
+  font-weight: bold;
+}
+label {
+  font-weight: bold;
+}

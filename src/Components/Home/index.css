@@ -1,0 +1,30 @@
+.home-page-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.elements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(98, 94, 94);
+  padding: 10px;
+}
+button {
+  background-color: transparent;
+  border-style: none;
+  color: white;
+  font-size: 20px;
+}
+.logo {
+  height: 6vh;
+  width: 12vw;
+}
+.find-btn,
+.logout-btn {
+  background-color: blue;
+  font-size: 15px;
+  padding: 10px;
+}

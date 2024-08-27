@@ -1,0 +1,81 @@
+.inp-check {
+  height: 15px;
+  width: 15px;
+}
+.filterOption {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0px;
+}
+.jobs {
+  background-color: black;
+  color: white;
+  height: 91vh;
+  display: flex;
+}
+.profile {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: black;
+  height: 13vw;
+  width: 13vw;
+  padding: 20px;
+}
+.profile-name {
+  font-size: 20px;
+}
+.profile-bio {
+  font-size: 12px;
+}
+.profile-filters {
+  width: 20vw;
+  padding: 40px;
+}
+.tem {
+  font-size: 15px;
+}
+.pr-image {
+  height: 40px;
+}
+.filterOption > p {
+  margin: 5px;
+}
+hr {
+  width: 13vw;
+  margin: 0px;
+}
+.displayJobs {
+  overflow: auto;
+}
+.arrange {
+  display: flex;
+  align-items: center;
+}
+.title {
+  display: flex;
+  align-items: center;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+hr {
+  height: 2px;
+  margin: 0px;
+  width: 100%;
+}
+.jb {
+  background-color: rgb(149, 144, 144);
+  padding: 30px;
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+}
+.icon {
+  height: 80px;
+}
+.link {
+  text-decoration: none;
+}
